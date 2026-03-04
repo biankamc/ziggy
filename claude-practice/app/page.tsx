@@ -8,7 +8,7 @@ export default function Home() {
         <p className="text-muted-foreground text-lg max-w-sm">
           A practice app built with Next.js, Tailwind CSS, and shadcn/ui.
         </p>
-        <Button>Get Started</Button>
+        <Button className="bg-blue-600 hover:bg-blue-700">Get Started</Button>
       </main>
     </div>
   );
