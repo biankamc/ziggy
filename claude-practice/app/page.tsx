@@ -19,7 +19,7 @@ export default function Home() {
             <Label htmlFor="email">Email</Label>
             <Input id="email" type="email" placeholder="you@example.com" />
           </div>
-          <Button type="submit">Submit</Button>
+          <Button type="submit" className="bg-[#0353c7] hover:bg-[#0353c7]/90 text-[#fafafa] rounded-[8px]">Submit</Button>
         </form>
       </main>
     </div>
